@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1377576034754
+Build-Jdk: 1.6.0_51
+Built-By: Gabriel
+Bundle-Activator: me.rerun.karafcxf.rest.RestActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: karafcxf.rest
+Bundle-SymbolicName: karafcxf.rest
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: me.rerun.karafcxf.rest;uses:="javax.ws.rs,me.rerun.karaf
+ cxf.service.impl,org.osgi.framework";version="1.0.0.SNAPSHOT"
+Import-Package: javax.ws.rs;version="[2.0,3)",me.rerun.karafcxf.service.
+ impl;version="[1.0,2)",org.osgi.framework;version="[1.6,2)",org.osgi.se
+ rvice.blueprint;version="[1.0.0,2.0.0)"
+Import-Service: me.rerun.karafcxf.service.impl.HelloService;multiple:=fa
+ lse
+Tool: Bnd-1.50.0

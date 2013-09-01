@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1377576005222
+Build-Jdk: 1.6.0_51
+Built-By: Gabriel
+Bundle-Activator: me.rerun.karafcxf.service.impl.ServiceActivator
+Bundle-ManifestVersion: 2
+Bundle-Name: karafcxf.service.impl
+Bundle-SymbolicName: karafcxf.service.impl
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: me.rerun.karafcxf.service.impl;uses:="org.osgi.framework
+ ";version="1.0.0.SNAPSHOT"
+Export-Service: me.rerun.karafcxf.service.impl.HelloService
+Import-Package: org.osgi.framework;version="[1.6,2)",org.osgi.service.bl
+ ueprint;version="[1.0.0,2.0.0)"
+Tool: Bnd-1.50.0

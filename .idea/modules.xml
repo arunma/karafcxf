@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/karafcxf.iml" filepath="$PROJECT_DIR$/karafcxf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karafcxf.kar/karafcxf.kar.iml" filepath="$PROJECT_DIR$/karafcxf.kar/karafcxf.kar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karafcxf.rest/karafcxf.rest.iml" filepath="$PROJECT_DIR$/karafcxf.rest/karafcxf.rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/karafcxf.service.impl/karafcxf.service.impl.iml" filepath="$PROJECT_DIR$/karafcxf.service.impl/karafcxf.service.impl.iml" />
+    </modules>
+  </component>
+</project>
+
