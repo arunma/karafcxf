@@ -11,7 +11,7 @@
 
 
     <properties>
-        <cxf.version>2.7.5</cxf.version>
+        <cxf.version>2.7.11</cxf.version>
     </properties>
 
     <modules>

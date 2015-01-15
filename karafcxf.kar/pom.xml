@@ -16,18 +16,19 @@
 
     <build>
         <plugins>
+
             <plugin>
                 <groupId>org.apache.karaf.tooling</groupId>
-                <artifactId>features-maven-plugin</artifactId>
-                <version>2.3.2</version>
+                <artifactId>karaf-maven-plugin</artifactId>
+                <version>3.0.0</version>
                 <executions>
                     <execution>
-                        <id>create-kar</id>
+                        <id>features-create-kar</id>
                         <goals>
-                            <goal>create-kar</goal>
+                            <goal>features-create-kar</goal>
                         </goals>
                         <configuration>
-                            <featuresFile>${project.basedir}/src/main/resources/feature.xml</featuresFile>
+                            <featuresFile>src/main/resources/feature.xml</featuresFile>
                         </configuration>
                     </execution>
                 </executions>

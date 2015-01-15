@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <features xmlns="http://karaf.apache.org/xmlns/features/v1.0.0"
           name="${project.artifactId}-${project.version}">
+
+
+    <repository>mvn:org.apache.cxf.karaf/apache-cxf/2.7.11/xml/features</repository>
+
     <feature name="karafcxf" description="karaf cxf hello" version="1.0-SNAPSHOT" resolver="(obr)">
         <details>${project.description}</details>
-        <feature>http</feature>
-        <feature>cxf</feature>
+        <feature version="2.7.11">cxf</feature>
         <feature>this-project-dependants</feature>
 
         <bundle>mvn:karafcxf/karafcxf.service.impl/1.0-SNAPSHOT</bundle>
